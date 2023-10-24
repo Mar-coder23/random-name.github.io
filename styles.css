@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #EEC584;
+}
+.wrapper{
+    height: 100vh;
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 28rem;
+    width: 80rem;
+    background-color: rgb(57, 57, 57);
+    border-radius: 10px;
+    box-shadow: 0px 0px 35px 10px #EEC584;
+}
+.title-div{
+    height: 10rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-div h2{
+    font-size: 4rem;
+    letter-spacing: .04rem;
+    font-family: 'Kalam', cursive;
+    font-weight: 200;
+    text-shadow: 0px 0px 8px orange;
+}
+.gender-div{
+    height: 2rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.gender-div h3{
+    color: #D9DCD6;
+    font-size: 3rem;
+    letter-spacing: .04rem;
+    font-family: 'Playpen Sans', cursive;
+}
+.gender-div .boy{
+    color: #aeecff;
+}
+.gender-div .girl{
+    color: rgb(253, 214, 220);
+}
+.outputs{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+.output-boy-div{
+    height: 3rem;
+    width: 25%;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 5px black;
+}
+.output-girl-div{
+    height: 3rem;
+    width: 25%;
+    background-color: rgb(229, 229, 229);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 5px black;
+}
+.boy-output{
+    font-size: 1.5rem;
+    color: black;
+}
+.girl-output{
+    font-size: 1.5rem;
+    color: black;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.buttons .btn-boy-div button{
+    background-color: #81C3D7;
+    border: none;
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    color: rgb(34, 34, 34);
+    transition: .2s ease;
+    font-family: 'Playpen Sans', cursive;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.buttons .btn-boy-div button:hover{
+    background-color: #57b3cf;
+}
+.buttons .btn-girl-div button{
+    background-color: pink;
+    border: 1px solid black;
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    color: rgb(34, 34, 34);
+    transition: .2s ease;
+    font-family: 'Playpen Sans', cursive;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.buttons .btn-girl-div button:hover{
+    background-color: rgb(204, 148, 157);
+}
+
+@media only screen and (max-width: 700px){
+    .title-div h2{
+        font-size: 3rem;
+        letter-spacing: .04rem;
+        font-family: 'Kalam', cursive;
+        font-weight: 200;
+        text-shadow: 0px 0px 8px orange;
+    }
+    .output-boy-div{
+        height: 3rem;
+        width: 40%;
+        background-color: rgb(228, 228, 228);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 20px 5px black;
+    }
+    .output-girl-div{
+        height: 3rem;
+        width: 40%;
+        background-color: rgb(229, 229, 229);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 20px 5px black;
+    }
+}
+@media only screen and (max-width: 533px){
+    .title-div h2{
+        font-size: 2rem;
+        letter-spacing: .04rem;
+        font-family: 'Kalam', cursive;
+        font-weight: 200;
+        text-shadow: 0px 0px 8px orange;
+        text-align: center;
+    }
+    .output-boy-div{
+        height: 3rem;
+        width: 40%;
+        background-color: rgb(228, 228, 228);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 20px 5px black;
+    }
+    .output-girl-div{
+        height: 3rem;
+        width: 40%;
+        background-color: rgb(229, 229, 229);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 20px 5px black;
+    }
+    
+   
+}
